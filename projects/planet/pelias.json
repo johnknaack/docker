@@ -42,12 +42,12 @@
     },
     "openstreetmap": {
       "download": [
-        { "sourceURL": "https://planet.openstreetmap.org/pbf/planet-latest.osm.pbf" }
+        { "sourceURL": "https://s3.amazonaws.com/geocodeearth-osm-processing/planet-latest-latest.osm.pbf" }
       ],
       "leveldbpath": "/tmp",
       "datapath": "/data/openstreetmap",
       "import": [{
-        "filename": "planet-latest.osm.pbf"
+        "filename": "planet-latest-latest.osm.pbf"
       }]
     },
     "openaddresses": {
