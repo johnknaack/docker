@@ -36,6 +36,11 @@
     "adminLookup": {
       "enabled": true
     },
+    "blacklist": {
+      "files": [
+        "/data/blacklist/oa.txt"
+      ]
+    },
     "geonames": {
       "datapath": "/data/geonames",
       "countryCode": "ALL"
