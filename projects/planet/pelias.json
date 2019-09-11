@@ -57,6 +57,7 @@
     },
     "openaddresses": {
       "datapath": "/data/openaddresses",
+      "dataHost": "https://geocodeearth-oa-archive.s3.amazonaws.com",
       "files": [
       ]
     },
